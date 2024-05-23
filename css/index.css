@@ -505,6 +505,10 @@ td.tournament__table-info__value {
     z-index: 20;
 }
 
+.navigation-arrow:hover {
+    background: #FBCE51;
+}
+
 .navigation-arrow.disabled {
     background: #31313133;
 }
