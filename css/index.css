@@ -863,9 +863,9 @@ td.tournament__table-info__value {
         width: 335px;
     }
 
-    .slider-wrapper {
+    /* .slider-wrapper {
         overflow: unset;
-    }
+    } */
     .stages__list-container__list {
         grid-template-columns: repeat(7, 100%);
         gap: 20px;
