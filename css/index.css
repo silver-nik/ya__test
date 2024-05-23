@@ -911,6 +911,11 @@ td.tournament__table-info__value {
     .members {
         padding-bottom: 176px;
         position: relative;
+        overflow: hidden;
+    }
+
+    .members .container {
+        overflow: hidden;
     }
 
     .members .members__title-container {
