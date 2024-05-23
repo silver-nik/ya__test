@@ -117,13 +117,15 @@ document.addEventListener('DOMContentLoaded', () =>  {
         }
 
         [slidesContainer, navContent].forEach(el => {
-            el.addEventListener('mouseenter', () => {
-                autoPlay(false);
-            });
-
-            el.addEventListener('mouseleave', () => {
-                autoPlay(true);
-            });
+            if(infinite) {
+                el.addEventListener('mouseenter', () => {
+                    autoPlay(false);
+                });
+    
+                el.addEventListener('mouseleave', () => {
+                    autoPlay(true);
+                });
+            }
         })
 
         slidesContainer.addEventListener('transitionend', () => {
