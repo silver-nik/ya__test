@@ -151,9 +151,6 @@ document.addEventListener('DOMContentLoaded', () =>  {
                 btnToggleDisabled(prevArrow, false);
 
                 if(!infinite && i == slides.length - showedSlides) {
-
-                    console.log(i);
-                    console.log(slides.length);
                     btnToggleDisabled(nextArrow, true);
                 }
 
@@ -194,9 +191,6 @@ document.addEventListener('DOMContentLoaded', () =>  {
                 btnToggleDisabled(nextArrow, false);
 
                 if(!infinite && i == 0) {
-
-                    console.log(i);
-                    console.log(slides.length);
                     btnToggleDisabled(prevArrow, true);
                 }
 
